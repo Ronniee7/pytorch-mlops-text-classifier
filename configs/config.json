@@ -1,0 +1,18 @@
+{
+  "data_path": "data/news.csv",
+  "artifact_dir": "artifacts",
+  "log_dir": "logs",
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "max_vocab_size": 20000,
+  "min_token_freq": 1,
+  "max_seq_length": 200,
+  "embedding_dim": 64,
+  "hidden_dim": 64,
+  "dropout": 0.3,
+  "batch_size": 32,
+  "epochs": 10,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "early_stopping_patience": 3
+}
